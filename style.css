@@ -81,3 +81,72 @@ body{
 .button:hover{
     background-color: #713402;
 }
+
+.header-title{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    
+    text-align: center  ;
+    position: absolute;
+    left: 175px;
+    
+    margin-top: 222px;
+}
+
+.header-subtitle{
+    font-size: 80px;
+}
+
+header-down{
+    position: relative;
+}
+
+.header-subtitletwo{
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 12px;
+}
+
+
+.header-subtitletwo::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color:#FFFFFF;
+    top: 163px;
+    left: 74px;
+    margin-top: 12px;
+}
+
+.header-subtitletwo::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color:#FFFFFF;
+    top: 163px;
+    left: 342px;
+    margin-top: 12px;
+}
+
+.header-button{
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.4s linear ;
+}
+
+.header-button:hover{
+    background-color: #713402 ;
+}
