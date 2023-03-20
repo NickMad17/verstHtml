@@ -150,3 +150,102 @@ header-down{
 .header-button:hover{
     background-color: #713402 ;
 }
+
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+
+}
+
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px ;
+    font-family: 'Tinos', serif;
+    font-weight: 400 ;
+    font-size: 26px;
+}
+
+.card-title span{
+    color:#D67E35;
+    padding-left: 10px;
+
+}
+
+.card-desc{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+    font-weight: 400 ;
+    font-size: 26px;
+    color: #656363;
+}
+
+.history{
+    margin-top: 166px;
+}
+
+.history-title{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span{
+    color:#D67E34;
+    margin-left: 2px;
+}
+
+.history-desc{
+    color:#656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color:#BC9060;
+
+}
+
+.number-item span{
+    display: block;
+    font-size: 20px;
+    color:#000000;
+
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
