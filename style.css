@@ -4,7 +4,8 @@ body{
 }
 
 .container{
-    margin: 0px 166px;
+    margin: 0px auto;
+    max-width: 1200px;
 }
 
 .header{
@@ -100,7 +101,7 @@ body{
     font-size: 80px;
 }
 
-header-down{
+.header-down{
     position: relative;
 }
 
@@ -109,7 +110,6 @@ header-down{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-
     margin-top: 12px;
 }
 
